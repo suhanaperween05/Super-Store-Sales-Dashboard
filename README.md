@@ -23,9 +23,9 @@
 
 
 
-
+<h6>
 ## Credits
 
 This project was created for learning and portfolio purposes using a Super Store sample dataset by given link. The dashboard was recreated and customized as part of my Power BI practice.
 
-Raw dataset reference: [https://www.youtube.com/watch?v=fZn83JRt4Nk](https://drive.google.com/drive/folders/1HDkNHNslI3rgCv9LZzGtxag8JvYzss-b)
+Raw dataset reference: [https://www.youtube.com/watch?v=fZn83JRt4Nk](https://drive.google.com/drive/folders/1HDkNHNslI3rgCv9LZzGtxag8JvYzss-b)</h6>
