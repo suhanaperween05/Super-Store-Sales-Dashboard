@@ -26,6 +26,29 @@ Sales_Dashboard.png
 Profile_Dashboard.png
 
 
+## Key KPIs
+
+- Total Sales
+- Total Profit
+- Profit Margin
+- Quantity Sold
+- Average Delivery Days
+- Sales by Segment
+- Sales by Category and Sub-Category
+- Sales by Ship Mode
+- Sales by Payment Method
+- Sales and Profit by State
+- Year-over-year monthly sales and profit
+
+## Tools Used
+
+- Power BI Desktop
+- Power Query
+- DAX
+- Excel / CSV
+
+
+
 
 <h6>
 ## Credits
