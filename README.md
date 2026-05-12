@@ -21,9 +21,9 @@
 
 ## Dashboard Preview
 
-(Sales_Dashboard.png)
+[Sales Dashboard](Sales_Dashboard.png)
 
-Profile_Dashboard.png
+[Profile Dashboard](Profile_Dashboard.png)
 
 
 ## Key KPIs
