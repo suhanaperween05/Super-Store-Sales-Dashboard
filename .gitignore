@@ -1,0 +1,12 @@
+# Power BI temporary/cache files
+*.tmp
+*.temp
+
+# Windows metadata
+Thumbs.db
+desktop.ini
+
+# Large exports or local-only backups
+*.bak
+*.backup
+~$*
