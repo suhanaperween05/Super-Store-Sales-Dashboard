@@ -1,4 +1,4 @@
-#Super Store Sales Dashboard
+<h1>Super Store Sales Dashboard</h1>
 <br>
 The Super Store Sales Dashboard is an interactive Power BI report designed to analyze sales and profit performance for a retail superstore business. The dashboard provides a clear view of key business metrics such as total sales, total profit, profit margin, quantity sold, average delivery days, loss amount, and loss-making orders.
 
