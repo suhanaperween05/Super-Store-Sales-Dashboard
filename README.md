@@ -77,7 +77,7 @@ Total Quantity = SUM(Orders[Quantity])
 Average Delivery Days = AVERAGE(Orders[Delivery Days])
 ```
 
-More measures are documented in dax_measures.md
+More measures are documented in [docs/dax_measures.md](docs/dax_measures.md).
 
 
 
