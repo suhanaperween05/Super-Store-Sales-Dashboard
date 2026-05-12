@@ -16,3 +16,16 @@
 -Some orders generated losses, with a total loss amount of -91.71K, showing areas where pricing, discount, or product strategy may need improvement.<br>
 -State-wise visuals help identify regions with strong and weak sales or profit performance.<br>
 -Year-over-year monthly trends help compare sales and profit performance between 2019 and 2020.<br>
+
+
+
+
+
+
+
+
+## Credits
+
+This project was created for learning and portfolio purposes using a Super Store sample dataset by given link. The dashboard was recreated and customized as part of my Power BI practice.
+
+Raw dataset reference: [https://www.youtube.com/watch?v=fZn83JRt4Nk](https://drive.google.com/drive/folders/1HDkNHNslI3rgCv9LZzGtxag8JvYzss-b)
