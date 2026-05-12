@@ -21,7 +21,7 @@
 
 ## Dashboard Preview
 
-Sales_Dashboard.png
+(Sales_Dashboard.png)
 
 Profile_Dashboard.png
 
@@ -78,7 +78,7 @@ Average Delivery Days = AVERAGE(Orders[Delivery Days])
 ```
 
 More measures are documented in [DAX Measures](dax_measures.md)
-[docs/dax_measures.md](docs/dax_measures.md).
+
 
 
 
