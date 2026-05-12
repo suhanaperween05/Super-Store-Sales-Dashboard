@@ -91,7 +91,7 @@ More measures are documented in [DAX Measures](dax_measures.md)
 
 **Suhana Perween**
 
-- LinkedIn: https://www.linkedin.com/in/suhana-perween-503b86367
+- LinkedIn: [https://www.linkedin.com/in/suhana-perween-503b86367](https://www.linkedin.com/in/suhana-perween-503b86367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
   
 
