@@ -80,6 +80,20 @@ Average Delivery Days = AVERAGE(Orders[Delivery Days])
 More measures are documented in [DAX Measures](dax_measures.md)
 
 
+## How To View
+
+1. Download the `.pbix` file from the `powerbi` folder.
+2. Open it using Power BI Desktop.
+3. Refresh the data source if needed.
+4. Interact with filters, slicers, charts, and map visuals.
+
+## Author
+
+**Suhana Perween**
+
+- LinkedIn: https://www.linkedin.com/in/suhana-perween-503b86367
+
+  
 
 
 <h6>
