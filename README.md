@@ -19,7 +19,11 @@
 
 
 
+## Dashboard Preview
 
+Sales_Dashboard.png
+
+Profile_Dashboard.png
 
 
 
