@@ -48,6 +48,37 @@ Profile_Dashboard.png
 - Excel / CSV
 
 
+## Data Cleaning and Transformation
+
+The dataset was cleaned and transformed in Power Query before building the dashboard. Main cleaning steps included:
+
+- Removed duplicate records
+- Checked and handled missing values
+- Corrected data types for date, sales, profit, quantity, and delivery fields
+- Created calculated delivery days from order date and ship date
+- Standardized category, segment, region, ship mode, and payment method fields
+- Created date-based columns such as year, month, and month name
+- Prepared the data model for dashboard analysis
+
+
+## DAX Measures
+
+Example measures used in the dashboard:
+
+```DAX
+Total Sales = SUM(Orders[Sales])
+
+Total Profit = SUM(Orders[Profit])
+
+Profit Margin = DIVIDE([Total Profit], [Total Sales])
+
+Total Quantity = SUM(Orders[Quantity])
+
+Average Delivery Days = AVERAGE(Orders[Delivery Days])
+```
+
+More measures are documented in dax_measures.md
+
 
 
 <h6>
