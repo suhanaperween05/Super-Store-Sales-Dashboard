@@ -3,47 +3,47 @@
 Add or update these measures according to your table and column names.
 
 ```DAX
-Total Sales = SUM(Orders[Sales])
+Total Sales = SUM(SuperStore_Sales_Dataset[Sales]) 
 ```
 
 ```DAX
-Total Profit = SUM(Orders[Profit])
+Total_Profit = SUM(SuperStore_Sales_Dataset[Profit])
 ```
 
 ```DAX
-Profit Margin = DIVIDE([Total Profit], [Total Sales])
+ProfitMargin = DIVIDE(SUM(SuperStore_Sales_Dataset[Profit]), SUM(SuperStore_Sales_Dataset[Sales]), 0)  
 ```
 
 ```DAX
-Total Quantity = SUM(Orders[Quantity])
+Total Quantity = SUM(SuperStore_Sales_Dataset[Quantity])
 ```
 
 ```DAX
-Average Delivery Days = AVERAGE(Orders[Delivery Days])
+AvgDelivery = DATEDIFF('SuperStore_Sales_Dataset'[Order Date],'SuperStore_Sales_Dataset'[Ship Date],DAY) 
 ```
 
 ```DAX
-Total Orders = DISTINCTCOUNT(Orders[Order ID])
+Total Orders = DISTINCTCOUNT(SuperStore_Sales_Dataset[Order ID])
 ```
 
 ```DAX
 Average Order Value = DIVIDE([Total Sales], [Total Orders])
 ```
-
 ```DAX
-Loss Orders = 
-CALCULATE(
-    COUNTROWS(Orders),
-    Orders[Profit] < 0
-)
+Average_Profit_per_order = DIVIDE(SuperStore_Sales_Dataset[Total_Profit], DISTINCTCOUNT(SuperStore_Sales_Dataset[Order ID]))
 ```
-
 ```DAX
-Sales Previous Year =
+Loss_making_orders =
 CALCULATE(
-    [Total Sales],
-    SAMEPERIODLASTYEAR('Date'[Date])
-)
+    COUNTROWS(SuperStore_Sales_Dataset),
+    SuperStore_Sales_Dataset[Profit] <0
+    )
+```
+```DAX
+New_ProfitMargin = DIVIDE(SuperStore_Sales_Dataset[Total_Profit],SuperStore_Sales_Dataset[Total Sales], 0)
+```
+```DAX
+Loss Amount = CALCULATE(SUM(SuperStore_Sales_Dataset[Profit]), SuperStore_Sales_Dataset[Profit] <0)
 ```
 
 ```DAX
