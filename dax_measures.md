@@ -11,7 +11,10 @@ Total_Profit = SUM(SuperStore_Sales_Dataset[Profit])
 ```
 
 ```DAX
-ProfitMargin = DIVIDE(SUM(SuperStore_Sales_Dataset[Profit]), SUM(SuperStore_Sales_Dataset[Sales]), 0)  
+ProfitMargin = DIVIDE(
+        SUM(SuperStore_Sales_Dataset[Profit]),
+         SUM(SuperStore_Sales_Dataset[Sales]), 0
+    )  
 ```
 
 ```DAX
@@ -19,7 +22,11 @@ Total Quantity = SUM(SuperStore_Sales_Dataset[Quantity])
 ```
 
 ```DAX
-AvgDelivery = DATEDIFF('SuperStore_Sales_Dataset'[Order Date],'SuperStore_Sales_Dataset'[Ship Date],DAY) 
+AvgDelivery =
+        DATEDIFF(
+        'SuperStore_Sales_Dataset'[Order Date],
+        'SuperStore_Sales_Dataset'[Ship Date],DAY
+        ) 
 ```
 
 ```DAX
@@ -30,7 +37,10 @@ Total Orders = DISTINCTCOUNT(SuperStore_Sales_Dataset[Order ID])
 Average Order Value = DIVIDE([Total Sales], [Total Orders])
 ```
 ```DAX
-Average_Profit_per_order = DIVIDE(SuperStore_Sales_Dataset[Total_Profit], DISTINCTCOUNT(SuperStore_Sales_Dataset[Order ID]))
+Average_Profit_per_order =
+        DIVIDE(SuperStore_Sales_Dataset[Total_Profit]
+            , DISTINCTCOUNT(SuperStore_Sales_Dataset[Order ID])
+        )
 ```
 ```DAX
 Loss_making_orders =
@@ -40,10 +50,15 @@ CALCULATE(
     )
 ```
 ```DAX
-New_ProfitMargin = DIVIDE(SuperStore_Sales_Dataset[Total_Profit],SuperStore_Sales_Dataset[Total Sales], 0)
+New_ProfitMargin =
+        DIVIDE(SuperStore_Sales_Dataset[Total_Profit],
+        SuperStore_Sales_Dataset[Total Sales], 0
+        )
 ```
 ```DAX
-Loss Amount = CALCULATE(SUM(SuperStore_Sales_Dataset[Profit]), SuperStore_Sales_Dataset[Profit] <0)
+Loss Amount =
+        CALCULATE(SUM(SuperStore_Sales_Dataset[Profit]),
+         SuperStore_Sales_Dataset[Profit] <0)
 ```
 
 ```DAX
